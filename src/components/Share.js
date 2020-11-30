@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import logo from '../img/twitter-logo.jpg';
 
-const Share = ()=> (
-    <a id="tweet-quote" href="">
-      Share
-    </a>
-  );
+const Share = ({ path }) => (
+  <a id="tweet-quote" href={path}>
+     <img id="logo" src={logo} alt="Tweet quote" title="Tweet quote" />
+  </a>
+);
 
 export default Share;

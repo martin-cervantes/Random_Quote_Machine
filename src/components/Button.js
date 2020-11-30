@@ -1,10 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { Button } from 'react-bootstrap';
 
-const Button = ()=> (
-    <button id="new-quote">
+const Btn = ({ newQuote }) => (
+    <Button
+      id="new-quote"
+      className="mx-3"
+      onClick={() => newQuote()}
+    >
       New Quote
-    </button>
+    </Button>
   );
 
-export default Button;
+export default Btn;

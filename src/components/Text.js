@@ -1,10 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const Text = ({ id })=> (
-    <div id={id}>
-      {id.toUpperCase()}
-    </div>
+const Text = ({ text }) => (
+    <h1 id="text">
+      "{text}"
+    </h1>
   );
 
 export default Text;
