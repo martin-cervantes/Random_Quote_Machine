@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,MACE,SAAU,CACV,gBACF,CAEA,MACE,YAAa,CACb,mBACF","file":"main.2db3c792.chunk.css","sourcesContent":["#root {\n  width: 75%;\n  margin: 5rem auto;\n}\n\n#logo {\n  width: 2.4rem;\n  border-radius: 0.5rem;\n}\n"]}
